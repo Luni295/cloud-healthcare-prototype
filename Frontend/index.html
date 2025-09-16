@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Healthcare Prototype</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Patient Monitoring Dashboard</h1>
+    <div class="card">
+      <h2>Vitals</h2>
+      <p>Heart Rate: <span id="heartRate">--</span> bpm</p>
+      <p>Oxygen Saturation: <span id="spo2">--</span>%</p>
+      <p>Blood Pressure: <span id="bloodPressure">--</span></p>
+    </div>
+    <div id="alertBox" class="alert hidden">⚠ ALERT: Abnormal Vital Signs!</div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
